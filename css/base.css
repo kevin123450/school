@@ -73,8 +73,8 @@
     --border-transparent: .1 solid var(--color-transparent);
    }
    
-    /*************************
-    *** Background Colors ***
+    /********************
+    *** Border Colors ***
     *************************/
     .border-color-primary{border-color:var(--color-primary)!important; }
     .border-color-secondary{border-color:var(--color-secondary)!important; }
@@ -86,6 +86,21 @@
     .border-color-dark{border-color:var(--color-dark)!important; }
     .border-color-white{border-color:var(--color-white)!important; }
     .border-color-cozy{border-color:var(--color-cozy)!important; }
+
+    /************************
+    *** Background Colors ***
+    *************************/
+    .bg-primary{ background-color:var(--color-primary); }
+    .bg-secondary{ background-color:var(--color-secondary); }
+    .bg-success{ background-color:var(--color-success); }
+    .bg-info{ background-color:var(--color-info); }
+    .bg-warning{ background-color:var(--color-warning); }
+    .bg-danger{ background-color:var(--color-danger); }
+    .bg-light{ background-color:var(--color-light); }
+    .bg-dark{ background-color:var(--color-dark); }
+    .bg-white{ background-color:var(--color-white); }
+    .bg-cozy{ background-color:var(--color-cozy); }
+
 
     /******************
     *** Text Colors ***

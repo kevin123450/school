@@ -1,0 +1,15 @@
+/*****************
+*** Colors Bar ***
+*****************/
+.d-flex{display: flex; }
+
+/*****************
+*** Colors Bar ***
+*****************/
+.flex-grow{flex-grow: 1; }
+
+/**********************
+*** Align & Justify ***
+***********************/
+.justify-content-between{justify-content: space-between; }
+.align-iteams-center{align-items: center; }
