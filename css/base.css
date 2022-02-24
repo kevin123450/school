@@ -49,11 +49,12 @@
     --distance-9: 2.25rem;
     --distance-10: 2.5rem;
     --distance-11: 2.75rem;
-    --distance-12: 3.25rem;
-    --distance-13: 3.5rem;
-    --distance-14: 3.75rem;
+    --distance-12: 3rem;
+    --distance-13: 3.25rem;
+    --distance-14: 3.5rem;
+    --distance-15: 3.75rem;
     --distance-15: 4rem;
-    
+
     /***************
     *** Shadows ***
     ***************/
@@ -113,7 +114,7 @@
     .text-danger{color:var(--color-danger); }
     .text-light{color:var(--color-light); }
     .text-dark{color:var(--color-dark); }
-    .text-white{color:var(--color-warning); }
+    .text-white{color:var(--color-white); }
     .text-cozy{color:var(--color-cozy); }
 
    *,

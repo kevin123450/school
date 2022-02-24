@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kidz School </title>
-    <link href="">
-    <script src=""></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons">
+    <script src="https://kit.fontawesome.com/a63338f4a3.js" ></script>
     <link href="css/base.css" rel="stylesheet">
     <link href="css/flex.css" rel="stylesheet">
     <link href="css/layout.css" rel="stylesheet">
@@ -34,8 +33,51 @@
 
             <nav class="d-flex max-width justify-content-between align-iteams-center mx-auto p-6 ">
                 <img class="logo-width" src="images/logo-school.png">
-                <div>df</div>
-                <div>qwe</div>
+
+                
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="d-flex flex-column align-iteams-center text-decoration-none"> 
+                        <div class="d-flex align-iteams-center justify-content-between bg-info p-4 circle shadow-sm">
+                            <i class="fa-solid  fa-house-chimney text-white "></i>
+                        </div>
+                        <span class="text-info mt-4 lh-sm">Home</span>
+                    </a>
+                    <a href="#" class="d-flex flex-column align-iteams-center text-decoration-none"> 
+                        <div class="d-flex align-iteams-center justify-content-between bg-cozy p-4 circle shadow-sm">
+                            <i class="fa-solid fa-store text-white"></i>
+                        </div>
+                        <span class="text-cozy mt-4 lh-sm">Store</span>
+                    </a>
+                    <a href="#" class="d-flex flex-column align-iteams-center text-decoration-none"> 
+                        <div class="d-flex align-iteams-center justify-content-between bg-success p-4 circle shadow-sm">
+                            <i class="fa-solid fa-user-graduate text-white"></i>
+                        </div>
+                        <span class="text-success mt-4 lh-sm">Courses</span>
+                    </a>
+                    <a href="#" class="d-flex flex-column align-iteams-center text-decoration-none"> 
+                        <div class="d-flex align-iteams-center justify-content-between bg-warning p-4 circle shadow-sm">
+                            <i class="fa-solid fa-blog text-white"></i>
+                        </div>
+                        <span class="text-warning mt-4 lh-sm">Blog</span>
+                    </a>
+
+                </div>  
+
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="d-flex flex-column align-iteams-center text-decoration-none position-relative"> 
+                        <div class="d-flex align-iteams-center justify-content-between bg-cozy border-radius p-4 shadow-sm">
+                            <i class="fa-solid fa-basket-shopping text-white"></i>
+                        </div>
+                        <span class="text-white position-absolute icon-badge circle bg-success border-small-white text-size-xxs ">3</span>
+                    </a>
+                    <a href="#" class="d-flex flex-column align-iteams-center text-decoration-none position-relative"> 
+                        <div class="d-flex align-iteams-center justify-content-between bg-info border-radius p-4 shadow-sm">
+                            <i class="fa-solid fa-bars text-white"></i>
+                        </div>
+                      
+                    </a>
+
+                </div>
             </nav>
 
         <!-- Colored Bars-->
@@ -53,6 +95,34 @@
             <div class="flex-grow bg-primary bar-height"></div>
             <div class="flex-grow bg-cozy bar-height"></div>
         </div>
+
+        <!-- Drop-down Nav (small devices)-->
+        <div class="mx-6 d-none">
+            <a href="#" class="d-flex flex-row-reverse align-iteams-center text-decoration-none p-6 border-bottom-xs"> 
+                <div class="d-flex align-iteams-center justify-content-between bg-info p-4 circle shadow-sm">
+                    <i class="fa-solid  fa-house-chimney text-white "></i>
+                </div>
+                <span class="text-info mr-4 ">Home</span>
+            </a>
+            <a href="#" class="d-flex  flex-row-reverse  align-iteams-center text-decoration-none  p-6 border-bottom-xs"> 
+                <div class="d-flex align-iteams-center justify-content-between bg-cozy p-4 circle shadow-sm">
+                    <i class="fa-solid fa-store text-white"></i>
+                </div>
+                <span class="text-cozy mr-4 ">Store</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse  align-iteams-center text-decoration-none  p-6 border-bottom-xs"> 
+                <div class="d-flex align-iteams-center justify-content-between bg-success p-4 circle shadow-sm">
+                    <i class="fa-solid fa-user-graduate text-white"></i>
+                </div>
+                <span class="text-success mr-4 ">Courses</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse  align-iteams-center text-decoration-none  p-6 "> 
+                <div class="d-flex align-iteams-center justify-content-between bg-warning p-4 circle shadow-sm">
+                    <i class="fa-solid fa-blog text-white"></i>
+                </div>
+                <span class="text-warning mr-4">Blog</span>
+            </a>
+        </div>  
     </header>
 </body>
 </html>

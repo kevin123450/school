@@ -1,13 +1,37 @@
-/*****************
+/*************
 *** Widths ***
-*****************/
+*************/
 .max-widht {max-width: 192rem; }
+
+/**************
+*** Position***
+***************/
+.position-relative { position: relative !important; }
+.position-absolute { position: absolute !important; }
 
 /*****************
 *** Margins ***
 *****************/
 .mr-auto, .mx-auto{margin-right: auto; }
 .ml-auto, .mx-auto{margin-left: auto; }
+
+.mt-0, .my-0{ margin-top: var(--distance-0); } /* 0rem */
+.mb-0, .my-0{ margin-bottom: var(--distance-0); }
+.mt-1, .my-1{ margin-top: var(--distance-1); }  /* .25rem */
+.mb-1, .my-1{ margin-bottom: var(--distance-1); }
+.mt-2, .my-2{ margin-top: var(--distance-2); }  /* .5rem */
+.mb-2, .my-2{ margin-bottom: var(--distance-2); }
+.mt-3, .my-3{ margin-top: var(--distance-3); }  /* 1rem */
+.mb-3, .my-3{ margin-bottom: var(--distance-3); }
+.mt-4, .my-4{ margin-top: var(--distance-4); }  /* 1.5rem */
+.mb-4, .my-4{ margin-bottom: var(--distance-4); }
+.mt-5, .my-5{ margin-top: var(--distance-5); }  /* 2rem */
+.mb-5, .my-5{ margin-bottom: var(--distance-5); }
+
+.mr-4, .mx-4{margin-right: var(--distance-4); }
+.ml-4, .mx-4{margin-left: var(--distance-4); }
+.mr-6, .mx-6{margin-right: var(--distance-6); }
+.ml-6, .mx-6{margin-left: var(--distance-6); }
 
 /**************
 *** Padding ***
@@ -18,6 +42,51 @@
 .p-8 {padding: var(--distance-8); }
 .p-12 {padding: var(--distance-12); }
 .p-15 {padding: var(--distance-15); }
+
+/**************
+*** Typography ***
+**************/
+.text-decoration-none{ text-decoration: none ; }
+
+.text-size-xxs { font-size: var(--display-xss); }
+.text-size-xs { font-size: var(--display-xs); }
+.text-size-sm { font-size: var(--display-sm); }
+.text-size-md { font-size: var(--display-md); }
+.text-size-lg { font-size: var(--display-lg); }
+.text-size-xl { font-size: var(--display-xl); }
+.text-size-xxl { font-size: var(--display-xxl); }
+
+
+.lh-sm {line-height: var(--line-height-sm); }
+.lh-md {line-height: var(--line-height-md); }
+.lh-lg {line-height: var(--line-height-lg); }
+
+/************
+*** Circle***
+************/
+.circle {border-radius: 100%;}
+
+/**************
+*** Shadows ***
+***************/
+.shadow-sm{ box-shadow: var(--shadow-small-light); }
+
+/**************
+*** Buttons ***
+**************/
+nav div a:not(:first-child) {margin-left: var(--distance-12) ;}
+.icon-badge {
+    top: -8px;
+    right: -8px;
+    padding: var(--distance-1) var(--distance-3);
+}
+/*************
+*** Border ***
+*************/
+.border-radius{ border-radius: var(--border-radius-sm); }
+.border-small-white{ border: var(--border-xs-white); }
+.border-bottom-xs { border-bottom: var(--border-xs); }
+
 
 /*****************
 *** Colors Bar ***
