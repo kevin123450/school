@@ -8,6 +8,12 @@
 ***************/
 .position-relative { position: relative !important; }
 .position-absolute { position: absolute !important; }
+.overflow-hidden{ overflow:hidden; }
+.centerXY{
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%); 
+}
 
 /*****************
 *** Margins ***
@@ -46,7 +52,8 @@
 /**************
 *** Typography ***
 **************/
-.text-decoration-none{ text-decoration: none ; }
+.text-decoration-none { text-decoration: none ; }
+.text-center {text-align: center; }
 
 .text-size-xxs { font-size: var(--display-xss); }
 .text-size-xs { font-size: var(--display-xs); }
@@ -80,6 +87,7 @@ nav div a:not(:first-child) {margin-left: var(--distance-12) ;}
     right: -8px;
     padding: var(--distance-1) var(--distance-3);
 }
+
 /*************
 *** Border ***
 *************/
@@ -96,4 +104,23 @@ nav div a:not(:first-child) {margin-left: var(--distance-12) ;}
 /*************
 *** Images ***
 *************/
-.logo-width {max-width: width 13rem; }
+.logo-width { max-width: width 13rem; }
+
+/****************
+*** Slideshow ***
+****************/
+.slider-width { width: 400%; /* 100% per image */ }
+.slider-container { width: 25%; /* Display first of 4 images */}
+.slider-image { width: 100%; object-fit: cover; }
+/* .slider-animation { animation: 100s slider-keyframes infinite; } */
+
+@keyframes slider-keyframes{
+    0% { left: 0%; }
+    15% { left: -100%; }
+    30% { left: -200%; }
+    45% { left: -300%; }
+    60% { left: -200%; }
+    75% { left: -100%; }
+    100% { left: 0%; }
+}
+

@@ -87,6 +87,8 @@
     .border-color-dark{border-color:var(--color-dark)!important; }
     .border-color-white{border-color:var(--color-white)!important; }
     .border-color-cozy{border-color:var(--color-cozy)!important; }
+    .bg-transparent{background-color: var(--color-transparent)!important; }
+    .bg-dark-transparent{background-color:var(--color-dark-transparent)!important; }
 
     /************************
     *** Background Colors ***
