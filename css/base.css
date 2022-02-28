@@ -93,16 +93,16 @@
     /************************
     *** Background Colors ***
     *************************/
-    .bg-primary{ background-color:var(--color-primary); }
-    .bg-secondary{ background-color:var(--color-secondary); }
-    .bg-success{ background-color:var(--color-success); }
-    .bg-info{ background-color:var(--color-info); }
-    .bg-warning{ background-color:var(--color-warning); }
-    .bg-danger{ background-color:var(--color-danger); }
-    .bg-light{ background-color:var(--color-light); }
-    .bg-dark{ background-color:var(--color-dark); }
-    .bg-white{ background-color:var(--color-white); }
-    .bg-cozy{ background-color:var(--color-cozy); }
+    .bg-primary, .btn-primary { background-color:var(--color-primary); }
+    .bg-secondary, .btn-secondary { background-color:var(--color-secondary); }
+    .bg-success, .btn-success { background-color:var(--color-success); }
+    .bg-info, .btn-info { background-color:var(--color-info); }
+    .bg-warning, .btn-warning { background-color:var(--color-warning); }
+    .bg-danger, .btn-danger { background-color:var(--color-danger); }
+    .bg-light, .btn-light { background-color:var(--color-light); }
+    .bg-dark, .btn-dark { background-color:var(--color-dark); }
+    .bg-white, .btn-white { background-color:var(--color-white); }
+    .bg-cozy, .btn-cozy { background-color:var(--color-cozy); }
 
 
     /******************
