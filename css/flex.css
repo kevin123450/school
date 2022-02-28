@@ -17,4 +17,5 @@
 *** Align & Justify ***
 ***********************/
 .justify-content-between{ justify-content: space-between; }
+.justify-content-center{ justify-content: center; }
 .align-iteams-center{ align-items: center; }
