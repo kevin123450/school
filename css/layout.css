@@ -3,6 +3,7 @@
 *************/
 .max-widht {max-width: 192rem; }
 .card-width { max-width: 60rem; }
+.width-lg {max-width: 50%;}
 
 /**************
 *** Position***
@@ -22,7 +23,8 @@
 .mr-auto, .mx-auto{margin-right: auto; }
 .ml-auto, .mx-auto{margin-left: auto; }
 
-.m-6{margin: var(--distance-6); }
+.m-6 { margin: var(--distance-6); }
+.m-15 { margin: var(--distance-15); }
 
 .mt-0, .my-0{ margin-top: var(--distance-0); } /* 0rem */
 .mb-0, .my-0{ margin-bottom: var(--distance-0); }
@@ -162,6 +164,6 @@ nav div a:not(:first-child) {margin-left: var(--distance-12) ;}
 *** Statistics ***
 *****************/
 .statistics-image {
-    background-image: url('..images\fun-facts\fun-facts-bg-img.jpg');
+    background-image: url('../images/fun-facts/fun-facts-bg-img.jpg');
     background-repeat: no-repeat; background-size: cover; background-position: center;
 }
