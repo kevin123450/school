@@ -4,6 +4,7 @@
 .max-widht {max-width: 192rem; }
 .card-width { max-width: 60rem; }
 .width-lg {max-width: 50%;}
+.min-width-xxl { min-width: 100%; }
 
 /**************
 *** Position***
@@ -155,10 +156,11 @@ nav div a:not(:first-child) {margin-left: var(--distance-12) ;}
 .f-width{ max-width: 33%; }
 
 /****************
-*** Features ***
+*** Icons ***
 ****************/
-.icon-feature {width: 7.6rem; height: 7.6rem; padding: 0.375rem; }
+.icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem; }
 .icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem; }
+.icon-form-control { right: 10px; top: 10px; }
 
 /*****************
 *** Statistics ***
